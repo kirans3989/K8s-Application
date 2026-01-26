@@ -1,0 +1,56 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build / dist output
+dist/
+build/
+out/
+target/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.crash.log
+
+# Kubernetes / Helm
+charts/*.tgz
+
+# Docker
+*.tar
+
+# Backup files
+*~
+*.bak
+
